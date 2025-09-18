@@ -19,4 +19,6 @@ package breezyweather.domain.weather.model
 data class SunStage(
     val langitude:  ,
     val longitude:  ,
+    val riseDate: Date? = null,
+    val setDate: Date? = null,
 )
